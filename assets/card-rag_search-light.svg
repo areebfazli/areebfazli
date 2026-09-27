@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="330" viewBox="0 0 520 330" role="img" aria-label="rag_search: Semantic search with a RAG engine. Python, FastAPI, Qdrant, Docker">
+  <style>
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Cascadia Mono', 'Noto Sans Mono', 'DejaVu Sans Mono', 'Liberation Mono', monospace; }
+    .s { font-family: Geist, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="surf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#f9f8f5"/>
+      <stop offset="1" stop-color="#f9f8f5"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#98600e" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#98600e" stop-opacity=".55"/>
+      <stop offset=".7" stop-color="#0b766b" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#0b766b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cbg" x2="0" y2="1"><stop offset="0" stop-color="#f1efe9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <radialGradient id="ci"><stop offset="0" stop-color="#dbe0f7" stop-opacity=".9"/><stop offset="1" stop-color="#dbe0f7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ca"><stop offset="0" stop-color="#98600e" stop-opacity=".2"/><stop offset="1" stop-color="#98600e" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ct"><stop offset="0" stop-color="#0b766b" stop-opacity=".14"/><stop offset="1" stop-color="#0b766b" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cvg" r=".72"><stop offset=".6" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff"/></radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#cfcbc1"/></pattern>
+    <filter id="psh" x="-20%" y="-20%" width="140%" height="170%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="pbg" x2="0" y2="1"><stop offset="0" stop-color="#f1efe9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#98600e"/><stop offset="1" stop-color="#0b766b"/></linearGradient>
+    <radialGradient id="spot" cx=".5" cy="0" r=".9"><stop offset="0" stop-color="#98600e" stop-opacity=".06"/><stop offset=".45" stop-color="#0b766b" stop-opacity=".025"/><stop offset=".7" stop-color="#0b766b" stop-opacity="0"/></radialGradient>
+    <clipPath id="cc"><rect x="1" y="1" width="518" height="200" rx="9"/></clipPath>
+    <clipPath id="cv"><path d="M1 200V10a9 9 0 0 1 9-9H510a9 9 0 0 1 9 9V200Z"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="519" height="329" rx="10" fill="url(#surf)" stroke="#48506a" stroke-opacity=".16"/>
+  <path d="M10 0.5H510" stroke="#48506a" stroke-opacity=".10"/>
+  <rect x="1" y="1" width="518" height="328" rx="9" fill="url(#spot)"/>
+  <g clip-path="url(#cv)">
+    <rect width="520" height="200" fill="url(#cbg)"/>
+    <circle cx="80" cy="0" r="300" fill="url(#ci)"/>
+    <circle cx="420" cy="70" r="220" fill="url(#ca)"/>
+    <circle cx="190" cy="190" r="200" fill="url(#ct)"/>
+    <rect width="520" height="200" fill="url(#dots)" opacity=".5"/>
+    <rect width="520" height="200" fill="url(#cvg)"/>
+        <g fill="none" stroke-width="1.2" opacity=".55"><path d="M260 58C296 58 296 78 330 78" stroke="#98600e"/><path d="M260 70C296 70 296 96 330 96" stroke="#98600e"/><path d="M260 82C296 82 296 114 330 114" stroke="#98600e"/><path d="M260 154C296 154 296 96 330 96" stroke="#0b766b"/><path d="M260 166C296 166 296 78 330 78" stroke="#0b766b"/><path d="M260 178C296 178 296 132 330 132" stroke="#0b766b"/></g>
+    <g fill="none" stroke-width="1.3" opacity=".5"><path d="M92 100C112 100 106 50 128 50" stroke="#98600e"/><path d="M92 100C112 100 106 146 128 146" stroke="#98600e"/></g>
+    <rect x="24" y="86" width="68" height="28" rx="14" fill="#f1efe9" stroke="#98600e" stroke-width="1.3" filter="url(#gl)"/>
+    <text class="m" x="58" y="104" font-size="11" fill="#98600e" text-anchor="middle" textLength="33.1" lengthAdjust="spacing">query</text>
+    <rect x="128" y="28" width="132" height="68" rx="8" fill="#3a3322" opacity=".16" filter="url(#psh)"/>
+    <rect x="128" y="20" width="132" height="68" rx="8" fill="url(#pbg)" stroke="#cfcbc1" stroke-width="1.2"/>
+    <rect x="139" y="30" width="7" height="7" rx="2" fill="#98600e"/>
+    <text class="m" x="152" y="37.5" font-size="10.5" fill="#4f5663" textLength="25.3" lengthAdjust="spacing">bm25</text>
+    <path d="M128 47H260" stroke="#cfcbc1"/>
+    <text class="m" x="139" y="60.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">1</text>
+    <rect x="150" y="55" width="70" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <text class="m" x="139" y="72.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">2</text>
+    <rect x="150" y="67" width="52" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <text class="m" x="139" y="84.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">3</text>
+    <rect x="150" y="79" width="80" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <rect x="128" y="124" width="132" height="68" rx="8" fill="#3a3322" opacity=".16" filter="url(#psh)"/>
+    <rect x="128" y="116" width="132" height="68" rx="8" fill="url(#pbg)" stroke="#cfcbc1" stroke-width="1.2"/>
+    <rect x="139" y="126" width="7" height="7" rx="2" fill="#0b766b"/>
+    <text class="m" x="152" y="133.5" font-size="10.5" fill="#4f5663" textLength="31.6" lengthAdjust="spacing">dense</text>
+    <path d="M128 143H260" stroke="#cfcbc1"/>
+    <text class="m" x="139" y="156.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">1</text>
+    <rect x="150" y="151" width="58" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <text class="m" x="139" y="168.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">2</text>
+    <rect x="150" y="163" width="76" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <text class="m" x="139" y="180.5" font-size="8.5" fill="#5f6673" textLength="5.1" lengthAdjust="spacing">3</text>
+    <rect x="150" y="175" width="46" height="6" rx="3" fill="#dedad1" opacity="1"/>
+    <rect x="330" y="44" width="164" height="128" rx="8" fill="#3a3322" opacity=".16" filter="url(#psh)"/>
+    <rect x="330" y="36" width="164" height="128" rx="8" fill="url(#pbg)" stroke="#cfcbc1" stroke-width="1.2"/>
+    <rect x="341" y="46" width="7" height="7" rx="2" fill="#4f5663"/>
+    <text class="m" x="354" y="53.5" font-size="10.5" fill="#4f5663" textLength="19" lengthAdjust="spacing">rrf</text>
+    <path d="M330 63H494" stroke="#cfcbc1"/>
+    <rect x="344" y="74" width="96" height="8" rx="3" fill="#98600e" opacity="1"/>
+    <circle cx="466" cy="78" r="2.6" fill="#98600e" stroke="#98600e" stroke-width="1"/>
+    <circle cx="478" cy="78" r="2.6" fill="#0b766b" stroke="#0b766b" stroke-width="1"/>
+    <rect x="344" y="92" width="84" height="8" rx="3" fill="#98600e" opacity="0.85"/>
+    <circle cx="466" cy="96" r="2.6" fill="#98600e" stroke="#98600e" stroke-width="1"/>
+    <circle cx="478" cy="96" r="2.6" fill="#0b766b" stroke="#0b766b" stroke-width="1"/>
+    <rect x="344" y="110" width="70" height="8" rx="3" fill="#dedad1" opacity="1"/>
+    <circle cx="466" cy="114" r="2.6" fill="#98600e" stroke="#98600e" stroke-width="1"/>
+    <circle cx="478" cy="114" r="2.6" fill="none" stroke="#0b766b" stroke-width="1"/>
+    <rect x="344" y="128" width="78" height="8" rx="3" fill="#dedad1" opacity="1"/>
+    <circle cx="466" cy="132" r="2.6" fill="none" stroke="#98600e" stroke-width="1"/>
+    <circle cx="478" cy="132" r="2.6" fill="#0b766b" stroke="#0b766b" stroke-width="1"/>
+    <rect x="344" y="146" width="58" height="8" rx="3" fill="#dedad1" opacity="1"/>
+    <circle cx="466" cy="150" r="2.6" fill="none" stroke="#98600e" stroke-width="1"/>
+    <circle cx="478" cy="150" r="2.6" fill="#0b766b" stroke="#0b766b" stroke-width="1"/>
+  </g>
+  <path d="M1 200.5H519" stroke="#48506a" stroke-opacity=".16"/>
+  <path d="M10 .5H510" stroke="#48506a" stroke-opacity=".10"/>
+  <path d="M29.76 248V234.65H32.75L32.87 238.36L32.61 238.3Q32.91 236.38 33.74 235.51Q34.58 234.65 36.02 234.65H37.26V237.39H36.01Q34.98 237.39 34.31 237.69Q33.64 238 33.3 238.63Q32.96 239.27 32.96 240.31V248H29.76ZM42.44 248.3Q40.36 248.3 39.08 247.34Q37.8 246.38 37.8 244.66Q37.8 242.92 38.88 241.95Q39.96 240.98 42.14 240.55L46.58 239.68Q46.58 238.26 45.93 237.55Q45.28 236.83 44.01 236.83Q42.85 236.83 42.18 237.36Q41.52 237.9 41.29 238.91L38.03 238.74Q38.41 236.63 39.97 235.49Q41.52 234.35 44.01 234.35Q46.86 234.35 48.32 235.78Q49.78 237.21 49.78 239.89V244.75Q49.78 245.28 49.96 245.48Q50.15 245.67 50.52 245.67H50.95V248Q50.8 248.05 50.46 248.08Q50.13 248.11 49.79 248.11Q48.96 248.11 48.31 247.84Q47.66 247.57 47.3 246.91Q46.94 246.26 46.94 245.11L47.23 245.3Q47.02 246.18 46.36 246.86Q45.71 247.55 44.7 247.92Q43.7 248.3 42.44 248.3ZM43.1 245.97Q44.17 245.97 44.94 245.55Q45.72 245.13 46.15 244.38Q46.58 243.62 46.58 242.61V241.86L43.12 242.56Q42.06 242.77 41.59 243.21Q41.12 243.65 41.12 244.36Q41.12 245.12 41.63 245.55Q42.15 245.97 43.1 245.97ZM58.07 252.05Q56.32 252.05 55.07 251.57Q53.82 251.1 53.06 250.24Q52.29 249.38 52 248.26L55.3 248.03Q55.54 248.77 56.16 249.2Q56.79 249.63 58.07 249.63Q59.56 249.63 60.36 248.96Q61.15 248.3 61.15 246.89V245.21Q60.68 246.18 59.63 246.77Q58.58 247.35 57.28 247.35Q55.62 247.35 54.34 246.54Q53.05 245.72 52.33 244.26Q51.6 242.8 51.6 240.86Q51.6 238.94 52.32 237.48Q53.03 236.02 54.31 235.18Q55.58 234.35 57.22 234.35Q58.67 234.35 59.72 235Q60.76 235.65 61.25 236.73V234.65H64.38V246.82Q64.38 248.53 63.59 249.7Q62.81 250.86 61.39 251.46Q59.98 252.05 58.07 252.05ZM58.03 244.84Q59.46 244.84 60.31 243.78Q61.16 242.71 61.17 240.84Q61.19 239.6 60.81 238.71Q60.42 237.82 59.71 237.33Q59 236.85 58.03 236.85Q56.55 236.85 55.73 237.93Q54.92 239.02 54.92 240.84Q54.92 242.68 55.76 243.76Q56.6 244.84 58.03 244.84ZM66.6 250.67V248H78.64V250.67H66.6ZM86.31 248.3Q84.27 248.3 82.93 247.72Q81.59 247.14 80.9 246.12Q80.2 245.1 80.1 243.79L83.38 243.65Q83.56 244.69 84.22 245.28Q84.89 245.86 86.32 245.86Q87.44 245.86 88.04 245.49Q88.63 245.12 88.63 244.35Q88.63 243.89 88.42 243.6Q88.21 243.3 87.59 243.07Q86.98 242.84 85.79 242.63Q83.77 242.27 82.62 241.76Q81.48 241.24 81.01 240.47Q80.55 239.69 80.55 238.56Q80.55 236.68 81.99 235.52Q83.43 234.35 86.21 234.35Q88.14 234.35 89.37 234.96Q90.6 235.56 91.24 236.58Q91.87 237.6 91.98 238.84L88.73 238.99Q88.7 238.37 88.42 237.87Q88.15 237.37 87.6 237.08Q87.05 236.79 86.16 236.79Q85.02 236.79 84.44 237.25Q83.86 237.7 83.86 238.44Q83.86 238.98 84.09 239.33Q84.33 239.67 84.9 239.89Q85.48 240.11 86.47 240.27Q88.53 240.57 89.73 241.09Q90.93 241.61 91.44 242.4Q91.95 243.19 91.95 244.31Q91.95 246.22 90.41 247.26Q88.88 248.3 86.31 248.3ZM99.72 248.3Q97.72 248.3 96.25 247.44Q94.79 246.58 93.98 245.01Q93.18 243.43 93.18 241.32Q93.18 239.21 93.98 237.65Q94.79 236.09 96.24 235.22Q97.69 234.35 99.66 234.35Q101.56 234.35 102.99 235.2Q104.42 236.05 105.2 237.66Q105.99 239.26 105.99 241.5V242.22H96.5Q96.6 243.98 97.46 244.86Q98.32 245.74 99.76 245.74Q100.83 245.74 101.53 245.26Q102.24 244.78 102.52 243.9L105.8 244.11Q105.26 246.05 103.64 247.17Q102.03 248.3 99.72 248.3ZM96.5 240.06H102.66Q102.56 238.44 101.75 237.66Q100.93 236.87 99.66 236.87Q98.37 236.87 97.53 237.69Q96.7 238.52 96.5 240.06ZM112.04 248.3Q109.96 248.3 108.68 247.34Q107.4 246.38 107.4 244.66Q107.4 242.92 108.48 241.95Q109.56 240.98 111.74 240.55L116.18 239.68Q116.18 238.26 115.53 237.55Q114.88 236.83 113.61 236.83Q112.45 236.83 111.78 237.36Q111.12 237.9 110.89 238.91L107.63 238.74Q108.01 236.63 109.57 235.49Q111.12 234.35 113.61 234.35Q116.46 234.35 117.92 235.78Q119.38 237.21 119.38 239.89V244.75Q119.38 245.28 119.56 245.48Q119.75 245.67 120.12 245.67H120.55V248Q120.4 248.05 120.06 248.08Q119.73 248.11 119.39 248.11Q118.56 248.11 117.91 247.84Q117.26 247.57 116.9 246.91Q116.54 246.26 116.54 245.11L116.83 245.3Q116.62 246.18 115.96 246.86Q115.31 247.55 114.3 247.92Q113.3 248.3 112.04 248.3ZM112.7 245.97Q113.77 245.97 114.54 245.55Q115.32 245.13 115.75 244.38Q116.18 243.62 116.18 242.61V241.86L112.72 242.56Q111.66 242.77 111.19 243.21Q110.72 243.65 110.72 244.36Q110.72 245.12 111.23 245.55Q111.75 245.97 112.7 245.97ZM122.13 248V234.65H125.13L125.25 238.36L124.99 238.3Q125.29 236.38 126.12 235.51Q126.95 234.65 128.39 234.65H129.63V237.39H128.39Q127.36 237.39 126.68 237.69Q126.01 238 125.67 238.63Q125.34 239.27 125.34 240.31V248H122.13ZM136.65 248.3Q134.66 248.3 133.18 247.44Q131.71 246.58 130.89 245.01Q130.08 243.43 130.08 241.32Q130.08 239.21 130.89 237.65Q131.71 236.09 133.18 235.22Q134.66 234.35 136.65 234.35Q138.34 234.35 139.67 234.95Q141.01 235.55 141.84 236.67Q142.68 237.79 142.88 239.38L139.57 239.55Q139.37 238.28 138.59 237.61Q137.81 236.95 136.65 236.95Q135.1 236.95 134.25 238.11Q133.39 239.27 133.39 241.32Q133.39 243.39 134.25 244.55Q135.1 245.71 136.65 245.71Q137.82 245.71 138.61 245.02Q139.39 244.34 139.57 242.93L142.88 243.08Q142.69 244.67 141.86 245.85Q141.04 247.02 139.7 247.66Q138.37 248.3 136.65 248.3ZM144.61 248V230.25H147.81V237.71L147.4 237.7Q147.61 236.55 148.21 235.81Q148.8 235.07 149.68 234.71Q150.56 234.35 151.61 234.35Q153.09 234.35 154.09 234.99Q155.09 235.63 155.6 236.78Q156.12 237.93 156.12 239.41V248H152.91V240.21Q152.91 238.57 152.37 237.76Q151.83 236.95 150.64 236.95Q149.34 236.95 148.58 237.8Q147.81 238.64 147.81 240.28V248H144.61Z" fill="#15171c"/>
+  <text class="m" x="492" y="246" font-size="13" fill="#5f6673" text-anchor="end" textLength="15.7" lengthAdjust="spacing">01</text>
+  <text class="s" x="28" y="278" font-size="16.5" fill="#4f5663">Semantic search with a RAG engine</text>
+    <text class="m" x="28" y="310" font-size="13" fill="#4f5663" textLength="47" lengthAdjust="spacing">Python</text>
+  <text class="m" x="82.1" y="310" font-size="13" fill="#8b909a" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="97.1" y="310" font-size="13" fill="#4f5663" textLength="54.8" lengthAdjust="spacing">FastAPI</text>
+  <text class="m" x="159" y="310" font-size="13" fill="#8b909a" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="174" y="310" font-size="13" fill="#4f5663" textLength="47" lengthAdjust="spacing">Qdrant</text>
+  <text class="m" x="228.1" y="310" font-size="13" fill="#8b909a" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="243.1" y="310" font-size="13" fill="#4f5663" textLength="47" lengthAdjust="spacing">Docker</text>
+</svg>

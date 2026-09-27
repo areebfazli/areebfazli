@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="330" viewBox="0 0 520 330" role="img" aria-label="football_prediction: Player performance predictor. TensorFlow, scikit-learn, Streamlit">
+  <style>
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Cascadia Mono', 'Noto Sans Mono', 'DejaVu Sans Mono', 'Liberation Mono', monospace; }
+    .s { font-family: Geist, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="surf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#f9f8f5"/>
+      <stop offset="1" stop-color="#f9f8f5"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#98600e" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#98600e" stop-opacity=".55"/>
+      <stop offset=".7" stop-color="#0b766b" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#0b766b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cbg" x2="0" y2="1"><stop offset="0" stop-color="#f1efe9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <radialGradient id="ci"><stop offset="0" stop-color="#dbe0f7" stop-opacity=".9"/><stop offset="1" stop-color="#dbe0f7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ca"><stop offset="0" stop-color="#98600e" stop-opacity=".2"/><stop offset="1" stop-color="#98600e" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ct"><stop offset="0" stop-color="#0b766b" stop-opacity=".14"/><stop offset="1" stop-color="#0b766b" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cvg" r=".72"><stop offset=".6" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff"/></radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#cfcbc1"/></pattern>
+    <filter id="psh" x="-20%" y="-20%" width="140%" height="170%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="0" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="pbg" x2="0" y2="1"><stop offset="0" stop-color="#f1efe9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#98600e"/><stop offset="1" stop-color="#0b766b"/></linearGradient>
+    <radialGradient id="spot" cx=".5" cy="0" r=".9"><stop offset="0" stop-color="#98600e" stop-opacity=".06"/><stop offset=".45" stop-color="#0b766b" stop-opacity=".025"/><stop offset=".7" stop-color="#0b766b" stop-opacity="0"/></radialGradient>
+    <clipPath id="cc"><rect x="1" y="1" width="518" height="200" rx="9"/></clipPath>
+    <clipPath id="cv"><path d="M1 200V10a9 9 0 0 1 9-9H510a9 9 0 0 1 9 9V200Z"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="519" height="329" rx="10" fill="url(#surf)" stroke="#48506a" stroke-opacity=".16"/>
+  <path d="M10 0.5H510" stroke="#48506a" stroke-opacity=".10"/>
+  <rect x="1" y="1" width="518" height="328" rx="9" fill="url(#spot)"/>
+  <g clip-path="url(#cv)">
+    <rect width="520" height="200" fill="url(#cbg)"/>
+    <circle cx="80" cy="0" r="300" fill="url(#ci)"/>
+    <circle cx="420" cy="70" r="220" fill="url(#ca)"/>
+    <circle cx="190" cy="190" r="200" fill="url(#ct)"/>
+    <rect width="520" height="200" fill="url(#dots)" opacity=".5"/>
+    <rect width="520" height="200" fill="url(#cvg)"/>
+        <rect x="22" y="24" width="300" height="168" rx="8" fill="#3a3322" opacity=".16" filter="url(#psh)"/>
+    <rect x="22" y="16" width="300" height="168" rx="8" fill="url(#pbg)" stroke="#cfcbc1" stroke-width="1.2"/>
+    <rect x="33" y="26" width="7" height="7" rx="2" fill="#4f5663"/>
+    <text class="m" x="46" y="33.5" font-size="10.5" fill="#4f5663" textLength="63.2" lengthAdjust="spacing">regression</text>
+    <path d="M22 43H322" stroke="#cfcbc1"/>
+    <path d="M44 56V166H304" fill="none" stroke="#8b909a" stroke-opacity=".6"/>
+    <path d="M44 138.5H304" stroke="#e4e1d9" stroke-dasharray="2 4"/>
+    <path d="M44 111.0H304" stroke="#e4e1d9" stroke-dasharray="2 4"/>
+    <path d="M44 83.5H304" stroke="#e4e1d9" stroke-dasharray="2 4"/>
+    <circle cx="105.8" cy="124.8" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="188.5" cy="104.0" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="193.4" cy="106.8" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="241.3" cy="89.6" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="110.6" cy="136.9" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="158.3" cy="153.2" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="241.0" cy="73.5" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="86.0" cy="144.0" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="195.5" cy="113.5" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="219.5" cy="86.5" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="203.7" cy="118.7" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="185.6" cy="115.1" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="120.1" cy="151.7" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="158.8" cy="121.2" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="214.5" cy="110.6" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="260.2" cy="70.5" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="141.3" cy="126.7" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="263.4" cy="70.1" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="250.6" cy="90.6" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="101.0" cy="140.0" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="270.2" cy="64.9" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="120.0" cy="136.2" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="166.6" cy="106.6" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="184.2" cy="115.0" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="184.0" cy="122.1" r="2.6" fill="#5f6673" opacity=".6"/>
+    <circle cx="261.9" cy="72.5" r="2.6" fill="#5f6673" opacity=".6"/>
+    <path d="M48 154.6L294 71.0" stroke="#98600e" stroke-width="2" stroke-linecap="round"/>
+    <path d="M48.0 157.9L58.2 152.7L68.5 147.6L78.8 142.6L89.0 137.8L99.2 133.3L109.5 129.1L119.8 125.3L130.0 121.8L140.2 118.7L150.5 115.8L160.8 113.3L171.0 111.1L181.2 109.1L191.5 107.3L201.8 105.5L212.0 103.8L222.2 102.1L232.5 100.2L242.8 98.2L253.0 96.0L263.2 93.5L273.5 90.6L283.8 87.5L294.0 83.9" fill="none" stroke="#0b766b" stroke-width="1.8" stroke-dasharray="5 3" stroke-linecap="round"/>
+    <circle cx="294" cy="71.0" r="7" fill="#f1efe9" stroke="#98600e" stroke-width="1.5" filter="url(#gl)"/><circle cx="294" cy="71.0" r="3" fill="#98600e"/>
+    <rect x="344" y="64" width="150" height="76" rx="8" fill="#3a3322" opacity=".16" filter="url(#psh)"/>
+    <rect x="344" y="56" width="150" height="76" rx="8" fill="url(#pbg)" stroke="#cfcbc1" stroke-width="1.2"/>
+    <path d="M358 84H380" stroke="#98600e" stroke-width="2"/>
+    <text class="m" x="390" y="88" font-size="11" fill="#4f5663" textLength="39.7" lengthAdjust="spacing">linear</text>
+    <path d="M358 108H380" stroke="#0b766b" stroke-width="2" stroke-dasharray="5 3"/>
+    <text class="m" x="390" y="112" font-size="11" fill="#4f5663" textLength="66.2" lengthAdjust="spacing">neural net</text>
+  </g>
+  <path d="M1 200.5H519" stroke="#48506a" stroke-opacity=".16"/>
+  <path d="M10 .5H510" stroke="#48506a" stroke-opacity=".10"/>
+  <path d="M31.16 248V234.14Q31.16 232.32 32.16 231.29Q33.16 230.25 35.27 230.25H37.89V232.74H35.87Q35.1 232.74 34.74 233.14Q34.37 233.54 34.37 234.3V248H31.16ZM29.26 237.14V234.65H37.7V237.14H29.26ZM44.77 248.3Q42.8 248.3 41.32 247.44Q39.84 246.58 39.02 245.01Q38.2 243.43 38.2 241.32Q38.2 239.2 39.02 237.64Q39.84 236.08 41.32 235.21Q42.8 234.35 44.77 234.35Q46.75 234.35 48.22 235.21Q49.69 236.08 50.51 237.64Q51.32 239.2 51.32 241.32Q51.32 243.43 50.51 245.01Q49.69 246.58 48.22 247.44Q46.75 248.3 44.77 248.3ZM44.77 245.71Q46.32 245.71 47.16 244.55Q48.01 243.39 48.01 241.32Q48.01 239.27 47.16 238.1Q46.32 236.94 44.77 236.94Q43.23 236.94 42.37 238.1Q41.52 239.27 41.52 241.32Q41.52 243.39 42.37 244.55Q43.23 245.71 44.77 245.71ZM59.1 248.3Q57.12 248.3 55.64 247.44Q54.16 246.58 53.34 245.01Q52.53 243.43 52.53 241.32Q52.53 239.2 53.34 237.64Q54.16 236.08 55.64 235.21Q57.12 234.35 59.1 234.35Q61.07 234.35 62.54 235.21Q64.02 236.08 64.83 237.64Q65.65 239.2 65.65 241.32Q65.65 243.43 64.83 245.01Q64.02 246.58 62.54 247.44Q61.07 248.3 59.1 248.3ZM59.1 245.71Q60.64 245.71 61.49 244.55Q62.33 243.39 62.33 241.32Q62.33 239.27 61.49 238.1Q60.64 236.94 59.1 236.94Q57.55 236.94 56.7 238.1Q55.84 239.27 55.84 241.32Q55.84 243.39 56.7 244.55Q57.55 245.71 59.1 245.71ZM72.52 248Q70.53 248 69.59 247.08Q68.65 246.16 68.65 244.18V231.52H71.85V243.87Q71.85 244.81 72.26 245.16Q72.66 245.52 73.5 245.52H75.38V248H72.52ZM66.56 237.13V234.65H75.38V237.13H66.56ZM84.2 248.3Q82.81 248.3 81.76 247.7Q80.72 247.1 80.14 246.02L80.07 248H77.03V230.25H80.24V236.54Q80.77 235.63 81.8 234.99Q82.83 234.35 84.2 234.35Q85.92 234.35 87.18 235.21Q88.44 236.07 89.13 237.63Q89.82 239.2 89.82 241.32Q89.82 243.45 89.13 245.01Q88.44 246.58 87.18 247.44Q85.92 248.3 84.2 248.3ZM83.47 245.71Q84.85 245.71 85.68 244.54Q86.51 243.38 86.51 241.32Q86.51 239.26 85.69 238.1Q84.87 236.94 83.5 236.94Q82.47 236.94 81.74 237.46Q81 237.98 80.62 238.96Q80.24 239.94 80.24 241.32Q80.24 242.67 80.62 243.66Q81 244.65 81.73 245.18Q82.46 245.71 83.47 245.71ZM95.87 248.3Q93.79 248.3 92.51 247.34Q91.23 246.38 91.23 244.66Q91.23 242.92 92.3 241.95Q93.38 240.98 95.57 240.55L100 239.68Q100 238.26 99.35 237.55Q98.7 236.83 97.44 236.83Q96.27 236.83 95.61 237.36Q94.94 237.9 94.71 238.91L91.45 238.74Q91.84 236.63 93.39 235.49Q94.95 234.35 97.44 234.35Q100.29 234.35 101.75 235.78Q103.21 237.21 103.21 239.89V244.75Q103.21 245.28 103.39 245.48Q103.57 245.67 103.95 245.67H104.37V248Q104.22 248.05 103.89 248.08Q103.55 248.11 103.21 248.11Q102.38 248.11 101.73 247.84Q101.09 247.57 100.73 246.91Q100.37 246.26 100.37 245.11L100.66 245.3Q100.44 246.18 99.79 246.86Q99.13 247.55 98.13 247.92Q97.12 248.3 95.87 248.3ZM96.53 245.97Q97.59 245.97 98.37 245.55Q99.14 245.13 99.57 244.38Q100 243.62 100 242.61V241.86L96.55 242.56Q95.49 242.77 95.01 243.21Q94.54 243.65 94.54 244.36Q94.54 245.12 95.06 245.55Q95.58 245.97 96.53 245.97ZM108.96 248Q107.49 248 106.62 247.25Q105.76 246.5 105.76 244.84V230.25H108.96V244.51Q108.96 245.03 109.22 245.28Q109.48 245.52 109.96 245.52H110.94V248H108.96ZM115.64 248Q114.17 248 113.3 247.25Q112.43 246.5 112.43 244.84V230.25H115.64V244.51Q115.64 245.03 115.89 245.28Q116.15 245.52 116.63 245.52H117.61V248H115.64ZM118.58 250.67V248H130.62V250.67H118.58ZM132.86 251.75V234.65H135.92L135.99 237.49L135.68 237.35Q136.18 235.88 137.32 235.12Q138.46 234.35 139.97 234.35Q141.88 234.35 143.13 235.29Q144.39 236.24 145.02 237.82Q145.65 239.4 145.65 241.32Q145.65 243.24 145.01 244.83Q144.38 246.41 143.12 247.36Q141.86 248.3 139.95 248.3Q138.96 248.3 138.09 247.94Q137.23 247.59 136.62 246.94Q136.01 246.3 135.75 245.42L136.06 245.17V251.75H132.86ZM139.2 245.71Q140.65 245.71 141.49 244.54Q142.33 243.38 142.33 241.32Q142.33 239.27 141.49 238.11Q140.65 236.94 139.2 236.94Q138.23 236.94 137.53 237.43Q136.83 237.92 136.44 238.9Q136.06 239.88 136.06 241.32Q136.06 242.77 136.44 243.75Q136.81 244.73 137.52 245.22Q138.23 245.71 139.2 245.71ZM147.63 248V234.65H150.63L150.75 238.36L150.49 238.3Q150.79 236.38 151.62 235.51Q152.45 234.65 153.89 234.65H155.13V237.39H153.89Q152.86 237.39 152.18 237.69Q151.51 238 151.17 238.63Q150.84 239.27 150.84 240.31V248H147.63ZM162.12 248.3Q160.12 248.3 158.65 247.44Q157.19 246.58 156.38 245.01Q155.58 243.43 155.58 241.32Q155.58 239.21 156.38 237.65Q157.19 236.09 158.64 235.22Q160.09 234.35 162.06 234.35Q163.96 234.35 165.39 235.2Q166.82 236.05 167.6 237.66Q168.39 239.26 168.39 241.5V242.22H158.9Q159 243.98 159.86 244.86Q160.72 245.74 162.16 245.74Q163.23 245.74 163.93 245.26Q164.64 244.78 164.92 243.9L168.2 244.11Q167.66 246.05 166.04 247.17Q164.43 248.3 162.12 248.3ZM158.9 240.06H165.06Q164.96 238.44 164.15 237.66Q163.33 236.87 162.06 236.87Q160.77 236.87 159.93 237.69Q159.1 238.52 158.9 240.06ZM175.13 248.3Q173.43 248.3 172.19 247.44Q170.94 246.59 170.27 245.02Q169.6 243.46 169.6 241.32Q169.6 239.19 170.28 237.62Q170.95 236.06 172.2 235.2Q173.45 234.35 175.13 234.35Q176.53 234.35 177.59 234.93Q178.65 235.5 179.19 236.54V230.25H182.39V248H179.36L179.28 246.02Q178.73 247.1 177.63 247.7Q176.53 248.3 175.13 248.3ZM176.1 245.71Q177.1 245.71 177.78 245.2Q178.47 244.69 178.83 243.71Q179.19 242.72 179.19 241.32Q179.19 239.9 178.83 238.92Q178.47 237.95 177.78 237.44Q177.1 236.94 176.1 236.94Q174.64 236.94 173.78 238.11Q172.92 239.29 172.92 241.32Q172.92 243.33 173.78 244.52Q174.65 245.71 176.1 245.71ZM185.01 248V234.65H188.21V248H185.01ZM184.95 232.87V230.03H188.27V232.87H184.95ZM196.77 248.3Q194.78 248.3 193.31 247.44Q191.84 246.58 191.02 245.01Q190.2 243.43 190.2 241.32Q190.2 239.21 191.02 237.65Q191.84 236.09 193.31 235.22Q194.78 234.35 196.77 234.35Q198.47 234.35 199.8 234.95Q201.13 235.55 201.97 236.67Q202.8 237.79 203.01 239.38L199.69 239.55Q199.5 238.28 198.72 237.61Q197.93 236.95 196.77 236.95Q195.23 236.95 194.37 238.11Q193.52 239.27 193.52 241.32Q193.52 243.39 194.37 244.55Q195.23 245.71 196.77 245.71Q197.94 245.71 198.73 245.02Q199.52 244.34 199.69 242.93L203.01 243.08Q202.81 244.67 201.99 245.85Q201.16 247.02 199.83 247.66Q198.5 248.3 196.77 248.3ZM209.62 248Q207.63 248 206.69 247.08Q205.75 246.16 205.75 244.18V231.52H208.95V243.87Q208.95 244.81 209.36 245.16Q209.76 245.52 210.6 245.52H212.48V248H209.62ZM203.66 237.13V234.65H212.48V237.13H203.66ZM214.13 248V234.65H217.34V248H214.13ZM214.07 232.87V230.03H217.4V232.87H214.07ZM225.9 248.3Q223.92 248.3 222.44 247.44Q220.96 246.58 220.14 245.01Q219.33 243.43 219.33 241.32Q219.33 239.2 220.14 237.64Q220.96 236.08 222.44 235.21Q223.92 234.35 225.9 234.35Q227.87 234.35 229.34 235.21Q230.82 236.08 231.63 237.64Q232.45 239.2 232.45 241.32Q232.45 243.43 231.63 245.01Q230.82 246.58 229.34 247.44Q227.87 248.3 225.9 248.3ZM225.9 245.71Q227.44 245.71 228.29 244.55Q229.13 243.39 229.13 241.32Q229.13 239.27 228.29 238.1Q227.44 236.94 225.9 236.94Q224.35 236.94 223.5 238.1Q222.64 239.27 222.64 241.32Q222.64 243.39 223.5 244.55Q224.35 245.71 225.9 245.71ZM234.43 248V234.65H237.33L237.46 238.4L237.07 238.24Q237.28 236.85 237.9 235.99Q238.52 235.14 239.42 234.74Q240.33 234.35 241.41 234.35Q242.88 234.35 243.89 234.99Q244.9 235.64 245.42 236.78Q245.94 237.91 245.94 239.41V248H242.74V240.45Q242.74 239.32 242.52 238.54Q242.3 237.77 241.79 237.36Q241.29 236.95 240.43 236.95Q239.14 236.95 238.39 237.85Q237.64 238.75 237.64 240.45V248H234.43Z" fill="#15171c"/>
+  <text class="m" x="492" y="246" font-size="13" fill="#5f6673" text-anchor="end" textLength="15.7" lengthAdjust="spacing">04</text>
+  <text class="s" x="28" y="278" font-size="16.5" fill="#4f5663">Player performance predictor</text>
+    <text class="m" x="28" y="310" font-size="13" fill="#4f5663" textLength="78.3" lengthAdjust="spacing">TensorFlow</text>
+  <text class="m" x="113.4" y="310" font-size="13" fill="#8b909a" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="128.4" y="310" font-size="13" fill="#4f5663" textLength="93.9" lengthAdjust="spacing">scikit-learn</text>
+  <text class="m" x="229.4" y="310" font-size="13" fill="#8b909a" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="244.4" y="310" font-size="13" fill="#4f5663" textLength="70.4" lengthAdjust="spacing">Streamlit</text>
+</svg>

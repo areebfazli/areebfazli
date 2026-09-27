@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="About">
+  <style>
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Cascadia Mono', 'Noto Sans Mono', 'DejaVu Sans Mono', 'Liberation Mono', monospace; }
+    .s { font-family: Geist, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="numg" x1="0" x2="1">
+      <stop offset=".2" stop-color="#eab463"/><stop offset="1" stop-color="#9bc497"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" x2="1">
+      <stop offset="0" stop-color="#eab463" stop-opacity=".6"/>
+      <stop offset=".19" stop-color="#5ad1c1" stop-opacity=".4"/>
+      <stop offset=".55" stop-color="#5ad1c1" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#a0aec4" stop-opacity=".06"/>
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-2000%" width="110%" height="4000%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect x="0" y="12" width="1200" height="4" fill="url(#hair)" opacity=".35" filter="url(#glow)"/>
+  <rect x="0" y="13.5" width="1200" height="1" fill="url(#hair)"/>
+  <text class="m" x="0" y="72" font-size="20" fill="url(#numg)" textLength="25.7" lengthAdjust="spacing">01</text>
+  <text class="m" x="37.7" y="72" font-size="20" fill="#8a92a0" textLength="12" lengthAdjust="spacing">/</text>
+  <text class="m" x="63.7" y="72" font-size="20" fill="#eceae4" textLength="66.6" lengthAdjust="spacing">ABOUT</text>
+</svg>

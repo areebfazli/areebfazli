@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="68" viewBox="0 0 125 68" role="img" aria-label="Email">
+  <style>
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Cascadia Mono', 'Noto Sans Mono', 'DejaVu Sans Mono', 'Liberation Mono', monospace; }
+    .s { font-family: Geist, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs><filter id="sh" x="-40%" y="-60%" width="180%" height="260%"><feGaussianBlur stdDeviation="8"/></filter></defs>
+  <rect x="18" y="24" width="89" height="38" rx="22.0" fill="#eab463" opacity=".45" filter="url(#sh)"/>
+  <rect x="12" y="12" width="101" height="44" rx="22.0" fill="#eab463"/>
+  <text class="m" x="30" y="39.5" font-size="15" fill="#0a0c10" font-weight="500" textLength="45.1" lengthAdjust="spacing">Email</text>
+  <path d="M83.2 34H94.7M90.2 29.5L94.7 34L90.2 38.5" fill="none" stroke="#0a0c10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

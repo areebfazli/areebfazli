@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="330" viewBox="0 0 520 330" role="img" aria-label="repo_sentinel: AI code review and security platform. Python, FastAPI, Qdrant, GitHub Actions">
+  <style>
+    .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Cascadia Mono', 'Noto Sans Mono', 'DejaVu Sans Mono', 'Liberation Mono', monospace; }
+    .s { font-family: Geist, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="surf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#191e28"/>
+      <stop offset=".45" stop-color="#11141b"/>
+      <stop offset="1" stop-color="#11141b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eab463" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#eab463" stop-opacity=".55"/>
+      <stop offset=".7" stop-color="#5ad1c1" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#5ad1c1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cbg" x2="0" y2="1"><stop offset="0" stop-color="#171b22"/><stop offset="1" stop-color="#11141a"/></linearGradient>
+    <radialGradient id="ci"><stop offset="0" stop-color="#1b2140" stop-opacity=".9"/><stop offset="1" stop-color="#1b2140" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ca"><stop offset="0" stop-color="#eab463" stop-opacity=".16"/><stop offset="1" stop-color="#eab463" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ct"><stop offset="0" stop-color="#5ad1c1" stop-opacity=".11"/><stop offset="1" stop-color="#5ad1c1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cvg" r=".72"><stop offset=".6" stop-color="#11141a" stop-opacity="0"/><stop offset="1" stop-color="#11141a"/></radialGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#353c49"/></pattern>
+    <filter id="psh" x="-20%" y="-20%" width="140%" height="170%"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="pbg" x2="0" y2="1"><stop offset="0" stop-color="#171b22"/><stop offset="1" stop-color="#11141a"/></linearGradient>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#eab463"/><stop offset="1" stop-color="#5ad1c1"/></linearGradient>
+    <radialGradient id="spot" cx=".5" cy="0" r=".9"><stop offset="0" stop-color="#eab463" stop-opacity=".06"/><stop offset=".45" stop-color="#5ad1c1" stop-opacity=".025"/><stop offset=".7" stop-color="#5ad1c1" stop-opacity="0"/></radialGradient>
+    <clipPath id="cc"><rect x="1" y="1" width="518" height="200" rx="9"/></clipPath>
+    <clipPath id="cv"><path d="M1 200V10a9 9 0 0 1 9-9H510a9 9 0 0 1 9 9V200Z"/></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="519" height="329" rx="10" fill="url(#surf)" stroke="#a0aec4" stroke-opacity=".12"/>
+  <path d="M10 0.5H510" stroke="#c8d4e6" stroke-opacity=".2"/>
+  <rect x="1" y="1" width="518" height="328" rx="9" fill="url(#spot)"/>
+  <g clip-path="url(#cv)">
+    <rect width="520" height="200" fill="url(#cbg)"/>
+    <circle cx="80" cy="0" r="300" fill="url(#ci)"/>
+    <circle cx="420" cy="70" r="220" fill="url(#ca)"/>
+    <circle cx="190" cy="190" r="200" fill="url(#ct)"/>
+    <rect width="520" height="200" fill="url(#dots)" opacity=".5"/>
+    <rect width="520" height="200" fill="url(#cvg)"/>
+        <g fill="none" stroke="#eab463" stroke-width="1.2" opacity=".6"><path d="M284 97C312 97 306 56 334 56"/><path d="M284 97C312 97 306 144 334 144"/></g>
+    <rect x="22" y="24" width="262" height="168" rx="8" fill="#000000" opacity=".55" filter="url(#psh)"/>
+    <rect x="22" y="16" width="262" height="168" rx="8" fill="url(#pbg)" stroke="#232833" stroke-width="1.2"/>
+    <rect x="33" y="26" width="7" height="7" rx="2" fill="#a8afba"/>
+    <text class="m" x="46" y="33.5" font-size="10.5" fill="#a8afba" textLength="25.3" lengthAdjust="spacing">diff</text>
+    <path d="M22 43H284" stroke="#232833"/>
+    <text class="m" x="35" y="60.5" font-size="11" fill="#8a92a0" textLength="6.6" lengthAdjust="spacing"> </text>
+    <rect x="56" y="54" width="34" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="96" y="54" width="70" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="23" y="68" width="260" height="17" fill="#8a92a0" opacity=".05"/>
+    <text class="m" x="35" y="79.5" font-size="11" fill="#8a92a0" textLength="6.6" lengthAdjust="spacing">-</text>
+    <rect x="56" y="73" width="28" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="90" y="73" width="96" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="23" y="87" width="260" height="17" fill="#5ad1c1" opacity=".07"/>
+    <rect x="23" y="87" width="260" height="17" fill="#eab463" opacity=".09"/>
+    <rect x="23" y="87" width="2.5" height="17" fill="#eab463"/>
+    <circle cx="38" cy="95.5" r="5.5" fill="#eab463"/><path d="M38 92.5v3" stroke="#0a0c10" stroke-width="1.5" stroke-linecap="round"/><circle cx="38" cy="98.2" r=".9" fill="#0a0c10"/>
+    <rect x="56" y="92" width="28" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="90" y="92" width="60" height="7" rx="3" fill="#5ad1c1" opacity="0.9"/>
+    <rect x="156" y="92" width="50" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="56" y="109" width="208" height="40" rx="6" fill="#171b22" stroke="#eab463" stroke-width="1.2" stroke-opacity=".8"/>
+    <circle cx="70" cy="122" r="5" fill="none" stroke="#eab463" stroke-width="1.2"/><circle cx="70" cy="122" r="2" fill="#eab463"/>
+    <rect x="82" y="118" width="120" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="82" y="132" width="70" height="6" rx="3" fill="#5ad1c1" opacity="0.9"/>
+    <rect x="158" y="132" width="60" height="6" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="23" y="154" width="260" height="17" fill="#5ad1c1" opacity=".07"/>
+    <text class="m" x="35" y="165.5" font-size="11" fill="#8a92a0" textLength="6.6" lengthAdjust="spacing">+</text>
+    <rect x="56" y="159" width="22" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="84" y="159" width="104" height="7" rx="3" fill="#353c49" opacity="1"/>
+    <rect x="334" y="24" width="164" height="80" rx="8" fill="#000000" opacity=".55" filter="url(#psh)"/>
+    <rect x="334" y="16" width="164" height="80" rx="8" fill="url(#pbg)" stroke="#232833" stroke-width="1.2"/>
+    <rect x="345" y="26" width="7" height="7" rx="2" fill="#eab463"/>
+    <text class="m" x="358" y="33.5" font-size="10.5" fill="#a8afba" textLength="75.9" lengthAdjust="spacing">Ghost Hunter</text>
+    <path d="M334 43H498" stroke="#232833"/>
+    <circle cx="416" cy="70" r="19" fill="none" stroke="#eab463" stroke-opacity=".5" stroke-dasharray="2 3"/>
+    <circle cx="377.8" cy="54.4" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="432.7" cy="45.8" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="412.1" cy="45.1" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="459.1" cy="73.3" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="462.9" cy="62.6" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="441.8" cy="62.2" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="380.3" cy="73.0" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <path d="M416 70L426.0 61.6" stroke="#5ad1c1" stroke-width="1"/><circle cx="426.0" cy="61.6" r="2.4" fill="#5ad1c1"/>
+    <path d="M416 70L422.5 81.3" stroke="#5ad1c1" stroke-width="1"/><circle cx="422.5" cy="81.3" r="2.4" fill="#5ad1c1"/>
+    <path d="M416 70L403.2 72.3" stroke="#5ad1c1" stroke-width="1"/><circle cx="403.2" cy="72.3" r="2.4" fill="#5ad1c1"/>
+    <circle cx="416" cy="70" r="3.4" fill="#eab463"/>
+    <rect x="334" y="112" width="164" height="80" rx="8" fill="#000000" opacity=".55" filter="url(#psh)"/>
+    <rect x="334" y="104" width="164" height="80" rx="8" fill="url(#pbg)" stroke="#232833" stroke-width="1.2"/>
+    <rect x="345" y="114" width="7" height="7" rx="2" fill="#5ad1c1"/>
+    <text class="m" x="358" y="121.5" font-size="10.5" fill="#a8afba" textLength="69.5" lengthAdjust="spacing">Team Memory</text>
+    <path d="M334 131H498" stroke="#232833"/>
+    <circle cx="416" cy="158" r="19" fill="none" stroke="#5ad1c1" stroke-opacity=".5" stroke-dasharray="2 3"/>
+    <circle cx="370.2" cy="152.6" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="451.2" cy="159.2" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="405.2" cy="182.4" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="419.2" cy="144.0" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="425.5" cy="144.8" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="392.1" cy="148.9" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <circle cx="473.6" cy="158.3" r="1.3" fill="#8a92a0" opacity=".6"/>
+    <path d="M416 158L426.0 149.6" stroke="#5ad1c1" stroke-width="1"/><circle cx="426.0" cy="149.6" r="2.4" fill="#5ad1c1"/>
+    <path d="M416 158L422.5 169.3" stroke="#5ad1c1" stroke-width="1"/><circle cx="422.5" cy="169.3" r="2.4" fill="#5ad1c1"/>
+    <path d="M416 158L403.2 160.3" stroke="#5ad1c1" stroke-width="1"/><circle cx="403.2" cy="160.3" r="2.4" fill="#5ad1c1"/>
+    <circle cx="416" cy="158" r="3.4" fill="#eab463"/>
+    <circle cx="284" cy="97" r="2.4" fill="#eab463"/>
+  </g>
+  <path d="M1 200.5H519" stroke="#a0aec4" stroke-opacity=".12"/>
+  <path d="M10 .5H510" stroke="#c8d4e6" stroke-opacity=".2"/>
+  <path d="M29.76 248V234.65H32.75L32.87 238.36L32.61 238.3Q32.91 236.38 33.74 235.51Q34.58 234.65 36.02 234.65H37.26V237.39H36.01Q34.98 237.39 34.31 237.69Q33.64 238 33.3 238.63Q32.96 239.27 32.96 240.31V248H29.76ZM44.24 248.3Q42.25 248.3 40.78 247.44Q39.31 246.58 38.51 245.01Q37.7 243.43 37.7 241.32Q37.7 239.21 38.51 237.65Q39.31 236.09 40.76 235.22Q42.22 234.35 44.18 234.35Q46.09 234.35 47.52 235.2Q48.95 236.05 49.73 237.66Q50.51 239.26 50.51 241.5V242.22H41.03Q41.12 243.98 41.98 244.86Q42.85 245.74 44.28 245.74Q45.35 245.74 46.06 245.26Q46.76 244.78 47.05 243.9L50.32 244.11Q49.79 246.05 48.17 247.17Q46.55 248.3 44.24 248.3ZM41.03 240.06H47.19Q47.09 238.44 46.27 237.66Q45.46 236.87 44.18 236.87Q42.9 236.87 42.06 237.69Q41.22 238.52 41.03 240.06ZM52.51 251.75V234.65H55.57L55.64 237.49L55.33 237.35Q55.83 235.88 56.97 235.12Q58.11 234.35 59.62 234.35Q61.53 234.35 62.78 235.29Q64.04 236.24 64.67 237.82Q65.3 239.4 65.3 241.32Q65.3 243.24 64.66 244.83Q64.03 246.41 62.77 247.36Q61.51 248.3 59.6 248.3Q58.61 248.3 57.74 247.94Q56.88 247.59 56.27 246.94Q55.66 246.3 55.4 245.42L55.71 245.17V251.75H52.51ZM58.85 245.71Q60.3 245.71 61.14 244.54Q61.98 243.38 61.98 241.32Q61.98 239.27 61.14 238.11Q60.3 236.94 58.85 236.94Q57.88 236.94 57.18 237.43Q56.48 237.92 56.09 238.9Q55.71 239.88 55.71 241.32Q55.71 242.77 56.09 243.75Q56.46 244.73 57.17 245.22Q57.88 245.71 58.85 245.71ZM73.07 248.3Q71.1 248.3 69.62 247.44Q68.14 246.58 67.32 245.01Q66.5 243.43 66.5 241.32Q66.5 239.2 67.32 237.64Q68.14 236.08 69.62 235.21Q71.1 234.35 73.07 234.35Q75.05 234.35 76.52 235.21Q77.99 236.08 78.81 237.64Q79.62 239.2 79.62 241.32Q79.62 243.43 78.81 245.01Q77.99 246.58 76.52 247.44Q75.05 248.3 73.07 248.3ZM73.07 245.71Q74.62 245.71 75.46 244.55Q76.31 243.39 76.31 241.32Q76.31 239.27 75.46 238.1Q74.62 236.94 73.07 236.94Q71.53 236.94 70.67 238.1Q69.82 239.27 69.82 241.32Q69.82 243.39 70.67 244.55Q71.53 245.71 73.07 245.71ZM81.08 250.67V248H93.12V250.67H81.08ZM100.79 248.3Q98.74 248.3 97.4 247.72Q96.06 247.14 95.37 246.12Q94.68 245.1 94.58 243.79L97.85 243.65Q98.03 244.69 98.7 245.28Q99.37 245.86 100.8 245.86Q101.92 245.86 102.51 245.49Q103.11 245.12 103.11 244.35Q103.11 243.89 102.9 243.6Q102.68 243.3 102.07 243.07Q101.46 242.84 100.27 242.63Q98.25 242.27 97.1 241.76Q95.95 241.24 95.49 240.47Q95.02 239.69 95.02 238.56Q95.02 236.68 96.46 235.52Q97.9 234.35 100.68 234.35Q102.61 234.35 103.84 234.96Q105.08 235.56 105.71 236.58Q106.35 237.6 106.45 238.84L103.21 238.99Q103.18 238.37 102.9 237.87Q102.62 237.37 102.07 237.08Q101.52 236.79 100.63 236.79Q99.5 236.79 98.92 237.25Q98.34 237.7 98.34 238.44Q98.34 238.98 98.57 239.33Q98.8 239.67 99.38 239.89Q99.96 240.11 100.95 240.27Q103.01 240.57 104.21 241.09Q105.41 241.61 105.91 242.4Q106.42 243.19 106.42 244.31Q106.42 246.22 104.89 247.26Q103.36 248.3 100.79 248.3ZM114.19 248.3Q112.2 248.3 110.73 247.44Q109.26 246.58 108.46 245.01Q107.65 243.43 107.65 241.32Q107.65 239.21 108.46 237.65Q109.26 236.09 110.71 235.22Q112.17 234.35 114.13 234.35Q116.04 234.35 117.47 235.2Q118.9 236.05 119.68 237.66Q120.46 239.26 120.46 241.5V242.22H110.98Q111.07 243.98 111.93 244.86Q112.8 245.74 114.23 245.74Q115.3 245.74 116.01 245.26Q116.71 244.78 117 243.9L120.27 244.11Q119.74 246.05 118.12 247.17Q116.5 248.3 114.19 248.3ZM110.98 240.06H117.14Q117.04 238.44 116.22 237.66Q115.41 236.87 114.13 236.87Q112.85 236.87 112.01 237.69Q111.17 238.52 110.98 240.06ZM122.46 248V234.65H125.36L125.48 238.4L125.09 238.24Q125.3 236.85 125.92 235.99Q126.54 235.14 127.45 234.74Q128.36 234.35 129.43 234.35Q130.91 234.35 131.91 234.99Q132.92 235.64 133.44 236.78Q133.97 237.91 133.97 239.41V248H130.76V240.45Q130.76 239.32 130.55 238.54Q130.33 237.77 129.82 237.36Q129.31 236.95 128.45 236.95Q127.17 236.95 126.41 237.85Q125.66 238.75 125.66 240.45V248H122.46ZM141.39 248Q139.4 248 138.46 247.08Q137.52 246.16 137.52 244.18V231.52H140.73V243.87Q140.73 244.81 141.13 245.16Q141.54 245.52 142.37 245.52H144.25V248H141.39ZM135.43 237.13V234.65H144.25V237.13H135.43ZM145.91 248V234.65H149.11V248H145.91ZM145.85 232.87V230.03H149.17V232.87H145.85ZM152.28 248V234.65H155.18L155.31 238.4L154.92 238.24Q155.13 236.85 155.75 235.99Q156.37 235.14 157.27 234.74Q158.18 234.35 159.26 234.35Q160.73 234.35 161.74 234.99Q162.75 235.64 163.27 236.78Q163.79 237.91 163.79 239.41V248H160.59V240.45Q160.59 239.32 160.37 238.54Q160.15 237.77 159.64 237.36Q159.14 236.95 158.28 236.95Q156.99 236.95 156.24 237.85Q155.49 238.75 155.49 240.45V248H152.28ZM172.24 248.3Q170.25 248.3 168.78 247.44Q167.31 246.58 166.51 245.01Q165.7 243.43 165.7 241.32Q165.7 239.21 166.51 237.65Q167.31 236.09 168.76 235.22Q170.22 234.35 172.18 234.35Q174.09 234.35 175.52 235.2Q176.95 236.05 177.73 237.66Q178.51 239.26 178.51 241.5V242.22H169.03Q169.12 243.98 169.98 244.86Q170.85 245.74 172.28 245.74Q173.35 245.74 174.06 245.26Q174.76 244.78 175.05 243.9L178.32 244.11Q177.79 246.05 176.17 247.17Q174.55 248.3 172.24 248.3ZM169.03 240.06H175.19Q175.09 238.44 174.27 237.66Q173.46 236.87 172.18 236.87Q170.9 236.87 170.06 237.69Q169.22 238.52 169.03 240.06ZM183.84 248Q182.37 248 181.5 247.25Q180.63 246.5 180.63 244.84V230.25H183.84V244.51Q183.84 245.03 184.09 245.28Q184.35 245.52 184.83 245.52H185.81V248H183.84Z" fill="#eceae4"/>
+  <text class="m" x="492" y="246" font-size="13" fill="#8a92a0" text-anchor="end" textLength="15.7" lengthAdjust="spacing">02</text>
+  <text class="s" x="28" y="278" font-size="16.5" fill="#a8afba">AI code review and security platform</text>
+    <text class="m" x="28" y="310" font-size="13" fill="#a8afba" textLength="47" lengthAdjust="spacing">Python</text>
+  <text class="m" x="82.1" y="310" font-size="13" fill="#353c49" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="97.1" y="310" font-size="13" fill="#a8afba" textLength="54.8" lengthAdjust="spacing">FastAPI</text>
+  <text class="m" x="159" y="310" font-size="13" fill="#353c49" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="174" y="310" font-size="13" fill="#a8afba" textLength="47" lengthAdjust="spacing">Qdrant</text>
+  <text class="m" x="228.1" y="310" font-size="13" fill="#353c49" textLength="7.8" lengthAdjust="spacing">/</text>
+  <text class="m" x="243.1" y="310" font-size="13" fill="#a8afba" textLength="109.6" lengthAdjust="spacing">GitHub Actions</text>
+</svg>
